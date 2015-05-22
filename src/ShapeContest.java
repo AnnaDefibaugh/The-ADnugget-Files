@@ -11,24 +11,24 @@ public class ShapeContest {
 
 	public static void main(String[] args) {
 		while (true) {
-			Tortoise.setSpeed(10);
-			Tortoise.move(44);
-			Tortoise.turn(90);
-			Tortoise.move(44);
-			Tortoise.turn(90);
-			Tortoise.move(44);
-			Tortoise.turn(90);
-			Tortoise.move(44);
-			Tortoise.turn(45);
-			Tortoise.setPenWidth(10);
+			tortoise.setSpeed(10);
+			tortoise.move(44);
+			tortoise.turn(90);
+			tortoise.move(44);
+			tortoise.turn(90);
+			tortoise.move(44);
+			tortoise.turn(90);
+			tortoise.move(44);
+			tortoise.turn(45);
+			tortoise.setPenWidth(10);
 			String color = JOptionPane.showInputDialog("Color?");
 			if (color.equals("red")) {
-				Tortoise.setPenColor(Color.red);
+				tortoise.setPenColor(Color.red);
 			}else
 			{
-				Tortoise.setPenColor(Colors.getRandomColor());
+				tortoise.setPenColor(Colors.getRandomColor());
 			}
-			Tortoise.move(55);
+			tortoise.move(55);
 		}
 	}
 }
