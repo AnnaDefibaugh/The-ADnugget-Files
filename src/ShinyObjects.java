@@ -14,7 +14,7 @@ public class ShinyObjects {
 		// 2. Ask the user how many shiny objects they want
 		String MyEyesAreBleeding = JOptionPane.showInputDialog(null, "How many shiny objects do you want?");
 		// 3. Play the sound that many times
-		int number = for
+		//int number = for
 		// 1. Call the method below
 		playMisterZee();
 
@@ -22,7 +22,7 @@ public class ShinyObjects {
 
 	public static void playMisterZee() {
 		try {
-			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/Users/Guest/Desktop/shiny-objects.wav"));
+			AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File("/Users/Guest/Google Drive/LeagueStuff/league-sounds/llama.wav"));
 			Clip clip = AudioSystem.getClip();
 			clip.open(audioInputStream);
 			clip.start();
