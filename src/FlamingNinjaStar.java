@@ -29,27 +29,27 @@ for (int i = 0; i < 24; i++) {
 		// 2. Turn the tortoise 1/8 of a circle
 Tortoise.turn(360/8);
 		// 3. Move the tortoise 64 pixels
-Tortoise.setPenColor(Color.BLACK);
+Tortoise.setPenColor(Color.DARK_GRAY);
 Tortoise.move(64);
 		// 4. Turn the tortoise 40 degrees to the LEFT. (Negative numbers will turn the tortoise counter-clockwise.)
 Tortoise.turn(-40);
 		// 5. Move the tortoise the distance in the variable flameSize
-Tortoise.setPenColor(Colors.Reds.FireBrick);
+Tortoise.setPenColor(Colors.Reds.Tomato);
 Tortoise.move(flameSize);
 		// 6. Turn the tortoise 170 degrees
 Tortoise.turn(170);
 		// 7. Move the tortoise the distance in the variable flameSize (again)
-Tortoise.setPenColor(Colors.Reds.FireBrick);
+Tortoise.setPenColor(Colors.Reds.Tomato);
 Tortoise.move(flameSize);
 		// 8. Turn the tortoise 64 degrees to the right
 Tortoise.turn(92);
 		// 9. Move the tortoise the distance in the variable baseSize
-Tortoise.setPenColor(Color.BLACK);
+Tortoise.setPenColor(Color.DARK_GRAY);
 Tortoise.move(baseSize);
 		// 10. Check that your shape is the same as Figure 1. This is one arm of the ninja star.
 
 		// 11. Color your ninja star like Figure 2.
-Tortoise.setPenColor(Colors.Reds.Crimson);
+Tortoise.setPenColor(Colors.Reds.Tomato);
 	}
 	}
 }
