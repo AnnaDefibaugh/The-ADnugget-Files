@@ -21,6 +21,7 @@ Tortoise.setY(350);
 
 		// 1. Show the Tortoise
 Tortoise.show();
+
 		// 12. Set the tortoise speed to 10
 Tortoise.setSpeed(10);
 		// 13. Make all the code below repeat 25 times
@@ -29,17 +30,17 @@ for (int i = 0; i < 24; i++) {
 		// 2. Turn the tortoise 1/8 of a circle
 Tortoise.turn(360/8);
 		// 3. Move the tortoise 64 pixels
-Tortoise.setPenColor(Color.DARK_GRAY);
+Tortoise.setPenColor(Color.darkGray);
 Tortoise.move(64);
 		// 4. Turn the tortoise 40 degrees to the LEFT. (Negative numbers will turn the tortoise counter-clockwise.)
 Tortoise.turn(-40);
 		// 5. Move the tortoise the distance in the variable flameSize
-Tortoise.setPenColor(Colors.Reds.Tomato);
+Tortoise.setPenColor(Colors.Oranges.OrangeRed);
 Tortoise.move(flameSize);
 		// 6. Turn the tortoise 170 degrees
 Tortoise.turn(170);
 		// 7. Move the tortoise the distance in the variable flameSize (again)
-Tortoise.setPenColor(Colors.Reds.Tomato);
+Tortoise.setPenColor(Colors.Oranges.OrangeRed);
 Tortoise.move(flameSize);
 		// 8. Turn the tortoise 64 degrees to the right
 Tortoise.turn(92);
