@@ -1,4 +1,3 @@
-
 	// Copyright Wintriss Technical Schools 2013
 	import javax.swing.JOptionPane;
 

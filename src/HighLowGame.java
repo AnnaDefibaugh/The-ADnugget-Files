@@ -16,7 +16,7 @@ public class HighLowGame {
 		
 		// 1. ask the user for a guess using a pop-up window, and save their
 		// response
-		String Question = JOptionPane.showInputDialog("♡ I am thinking of a nuber between 1 and 100. ♡");
+		String Question = JOptionPane.showInputDialog("♡ I am thinking of a number between 1 and 100. ♡");
 		// 4. convert the users’ answer to an int (Integer.parseInt(string))
 		int AnswerNumber = Integer.parseInt(Question);
 		// 5. if the guess is correct

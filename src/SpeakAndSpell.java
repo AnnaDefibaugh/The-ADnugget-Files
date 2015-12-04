@@ -15,13 +15,13 @@ public class SpeakAndSpell {
 		int score = 0;
 		
 		// 1. Use the speak method to say the word. "e.g. spell mandlebrot"
-		speak("M C Chicken");
+		speak("Sasquatch");
 		
 		// 2. Catch the user's answer in a String
 		String abc = JOptionPane.showInputDialog("Spell the word");
 
 		// 3. If the user spelled the word correctly, speak "correct"
-		if (abc.equalsIgnoreCase ("MC Chicken")) {
+		if (abc.equalsIgnoreCase ("Sasquatch")) {
 			speak("Correct");
 			score = score + 5;
 		}
