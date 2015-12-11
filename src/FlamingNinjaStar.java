@@ -51,6 +51,7 @@ Tortoise.move(baseSize);
 
 		// 11. Color your ninja star like Figure 2.
 Tortoise.setPenColor(Colors.Reds.Tomato);
+Tortoise.hide();
 	}
 	}
 }

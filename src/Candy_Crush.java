@@ -1,5 +1,3 @@
-
-
 //Copyright Wintriss Technical Schools 2014
 import javax.swing.JOptionPane;
 
@@ -17,7 +15,7 @@ public class Candy_Crush {
 		// 3. Ask the user for the name of their best friend
 		String MNBVCXZLKJHGFDSAPOIUYTREWQ = JOptionPane.showInputDialog("Who is your best friend?");
 		// 4. Tell them their best friend is as sweet as candy
-		JOptionPane.showMessageDialog(null, MNBVCXZLKJHGFDSAPOIUYTREWQ +"is as sweet as candy! <3");
+		JOptionPane.showMessageDialog(null, MNBVCXZLKJHGFDSAPOIUYTREWQ +" is as sweet as candy! <3");
 	} 
 }
 
