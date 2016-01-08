@@ -73,7 +73,7 @@ public class XmasCard {
 	// Make variable that holds the distance of the mouse from the center of the window.
 	int centerWindow = 3;
 	// Make sure that distance is always a positive number
-	um...
+	
 	// Set tree width to the distance divided by 10
 	// Set the pen width to treeWidth divided by 5
 
