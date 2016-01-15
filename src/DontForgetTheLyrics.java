@@ -21,15 +21,15 @@ public class DontForgetTheLyrics {
 		// 5. Use the playSound method to play your song.
 		playSound("centuries.wav");
 		// 6. Make a pop-up for the player to type their answer.
-
+		String Centuries = JOptionPane.showInputDialog("What is the next word?");
 		// 7. If they answered correctly, tell them that they were right.
-
+		if (Centuries .equals ("centuries")) {
+			JOptionPane.showMessageDialog(null, "Thats right!");
+		}
 		// 8. Otherwise, tell them they are wrong, and give them the answer.
-
-		// 9. Record another sound and repeat steps 5-8.
-
-		// 10. [optional] Add a points variable that will calculate their final
-		// score.
+		else {
+			JOptionPane.showMessageDialog(null, "Wrong. It was centuries.");
+		}
 	}
 
 	public static void playSound(String fileName) {
