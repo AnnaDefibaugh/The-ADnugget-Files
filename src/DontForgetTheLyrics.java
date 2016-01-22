@@ -1,7 +1,7 @@
 import java.applet.AudioClip;
 import javax.swing.JApplet;
 import javax.swing.JOptionPane;
-
+import java.util.Random;
 public class DontForgetTheLyrics {
 	/*
 	 * For this game, we'll play the start of a song, and the player has to
@@ -16,6 +16,7 @@ public class DontForgetTheLyrics {
 	 */
 
 	public static void main(String[] args) {
+		Randomness();
 		// 4. Make a pop-up to explain the game.
 		JOptionPane.showMessageDialog(null, "For this game, we'll play the start of a song, and you get to guess the rest of the lyrics.");
 		// 5. Use the playSound method to play your song.
@@ -36,4 +37,12 @@ public class DontForgetTheLyrics {
 		AudioClip audioClip = JApplet.newAudioClip(new DontForgetTheLyrics().getClass().getResource(fileName));
 		audioClip.play();
 	}
+	public static void Randomness()
+	{ Random RandomNumber=new Random();
+	RandomNumber.nextInt(10);
+System.out.println(RandomNumber);		
+	}
+		
+	
 }
+
